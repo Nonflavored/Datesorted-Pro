@@ -1,6 +1,3 @@
-[README.md](https://github.com/user-attachments/files/27780329/README.md)
-# Datesorted-Pro
-Photo &amp; video organizer for photographers. EXIF date sorting, dedup, rename, RAW workflows. Windows. Buy at nonflavored.gumroad.com/l/exufpl
 # Datesorted Pro
 
 The photo & video organizer for photographers and people who love organized folders.
