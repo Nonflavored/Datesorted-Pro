@@ -16,7 +16,8 @@ If you're looking for one of these, here's where to go:
 
 - **Use the app:** [buy it on Gumroad](https://nonflavored.gumroad.com/l/exufpl)
 - **Check the latest version:** see [`version.json`](version.json) or the [Releases page](../../releases)
-- **Report a bug / request a feature:** [open an issue](../../issues), or email **support@datesorted.net**
+- **See what's new:** [CHANGELOG.md](CHANGELOG.md)
+- **Report a bug / request a feature:** [open an issue](../../issues), or email **Support@datesorted.net**
 
 ---
 
@@ -49,7 +50,7 @@ Windows 10 or 11. ~50 MB installed. No admin rights required.
 
 I'm a photographer in New England building this in my spare time. I'm at my computer all day for work, so support response is usually fast.
 
-**Email:** support@datesorted.net
+**Email:** Support@datesorted.net
 **Issues:** [GitHub Issues](../../issues)
 
 If the app crashed, attach `%USERPROFILE%\.datesorted\crash.log` — it makes diagnosis much faster.
