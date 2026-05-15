@@ -1,6 +1,8 @@
 {
-  "version": "1.1.2",
-  "notes": "Fix: the app could open larger than the screen on smaller/lower-resolution displays, hiding the Organize button. The window now adapts to your screen size. Plus the 1.1.1 additions: keep-original-filenames switch, organize-in-place toggle, smart-default destination. See CHANGELOG.md for details.",
+  "version": "1.2.0",
+  "notes": "Major: the app can now update itself. The update dialog has a 'Download & install update' button that downloads the verified installer and runs it for you — no more hunting through your Gumroad library. Plus everything from 1.1.x (keep-original-filenames, organize-in-place, smart default destination, fixed-size window, installer-duplicate fix, light-mode fix). See CHANGELOG.md.",
   "download_url": "https://nonflavored.gumroad.com/l/exufpl",
-  "changelog_url": "https://github.com/Nonflavored/datesorted-pro/blob/main/CHANGELOG.md"
+  "changelog_url": "https://github.com/Nonflavored/datesorted-pro/blob/main/CHANGELOG.md",
+  "installer_url": "https://datesorted.net/downloads/DatesortedPro_Setup_v1.2.0.exe",
+  "sha256": "572ca6bd943228b2b3bea10910870d43f1075f3643daa66d48f5a386ef01c52d"
 }
