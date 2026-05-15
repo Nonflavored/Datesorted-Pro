@@ -1,6 +1,6 @@
 {
-  "version": "1.1.1",
-  "notes": "Added a 'Keep original filenames' switch (sort into date folders without renaming), an 'Organize inside the source folder' toggle (no separate destination needed), and a smart-default destination when you add your first source. See CHANGELOG.md for details.",
+  "version": "1.1.2",
+  "notes": "Fix: the app could open larger than the screen on smaller/lower-resolution displays, hiding the Organize button. The window now adapts to your screen size. Plus the 1.1.1 additions: keep-original-filenames switch, organize-in-place toggle, smart-default destination. See CHANGELOG.md for details.",
   "download_url": "https://nonflavored.gumroad.com/l/exufpl",
   "changelog_url": "https://github.com/Nonflavored/datesorted-pro/blob/main/CHANGELOG.md"
 }
