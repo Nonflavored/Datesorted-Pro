@@ -1,8 +1,43 @@
 {
-  "version": "1.2.0",
-  "notes": "Major: the app can now update itself. The update dialog has a 'Download & install update' button that downloads the verified installer and runs it for you — no more hunting through your Gumroad library. Plus everything from 1.1.x (keep-original-filenames, organize-in-place, smart default destination, fixed-size window, installer-duplicate fix, light-mode fix). See CHANGELOG.md.",
+  "version": "1.5.0",
+  "notes": "Audio & GIF support, redesigned update dialog. See What's new.",
   "download_url": "https://nonflavored.gumroad.com/l/exufpl",
   "changelog_url": "https://github.com/Nonflavored/datesorted-pro/blob/main/CHANGELOG.md",
-  "installer_url": "https://datesorted.net/downloads/DatesortedPro_Setup_v1.2.0.exe",
-  "sha256": "0cac30558cd4b10b21f96502918d15198d1c22602b7cb80c676a711b03af1ff2"
+  "installer_url": "https://datesorted.net/downloads/DatesortedPro_Setup_v1.5.0.exe",
+  "sha256": "",
+  "whats_new": [
+    {
+      "title": "Audio & GIF support",
+      "items": [
+        "Audio files (.mp3, .wav, .flac, .m4a, .aac, .ogg, .opus, .wma, .aiff) now organize into an Audio/ folder by date",
+        "GIFs get their own GIFs/ folder instead of being mixed in with photos",
+        "Two new toggles: Include audio files, Include GIFs (both on by default)"
+      ]
+    },
+    {
+      "title": "One-click auto-update",
+      "items": [
+        "Download & install updates directly from the app — no more hunting through your Gumroad library",
+        "Downloads are SHA-256 verified before they run",
+        "Redesigned update dialog with full What's new and Skip this version"
+      ]
+    },
+    {
+      "title": "Quality of life",
+      "items": [
+        "Keep original filenames — sort into date folders without renaming",
+        "Organize inside the source folder (no separate destination needed)",
+        "Smart default destination when you add your first source",
+        "Window auto-fits your screen; fixed size (no more resize jank)"
+      ]
+    },
+    {
+      "title": "Fixes",
+      "items": [
+        "License activation crash fixed",
+        "Light-mode freeze from Settings fixed",
+        "Installer no longer leaves two copies when updating from 1.0.0"
+      ]
+    }
+  ]
 }
