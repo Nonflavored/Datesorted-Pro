@@ -2,7 +2,9 @@
 
 The photo & video organizer for photographers and people who love organized folders.
 
-**[→ Buy on Gumroad](https://nonflavored.gumroad.com/l/exufpl)**
+**$20, one-time. No subscription. [→ Buy on Gumroad](https://nonflavored.gumroad.com/l/exufpl)**
+
+Free trial: organize up to 500 files in any folder before you pay.
 
 ![Version](https://img.shields.io/github/v/release/Nonflavored/datesorted-pro?label=latest&color=f0b429)
 
