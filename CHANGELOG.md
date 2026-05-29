@@ -5,8 +5,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
-## [1.7.2] - 2026-05-28
-
+## [1.7.2]
 A folder-structure and control release. You decide how deep the date tree
 goes, your existing event folders survive the sort, audio and GIFs get swept
 into one tidy place, and the filename editor is back. Also ships the dry-run
@@ -56,8 +55,7 @@ safety fix.
 
 ---
 
-## [1.7.1] — 2026-05-22
-
+## [1.7.1]
 Hardening pass over the v1.7.0 release. Fixes 15 bugs surfaced by a
 max-effort code review: 3 packaging/import blockers, 6 concurrency and
 state-leak issues, and 6 silent-failure paths. No new features.
@@ -99,8 +97,7 @@ state-leak issues, and 6 silent-failure paths. No new features.
 
 ---
 
-## [1.7.0] — 2026-05-22
-
+## [1.7.0]
 Trial mode, real folder drag-drop, RAW+JPG pairing, what's-new dialog, and a
 big internal cleanup (legacy CustomTkinter UI removed). Now $20 one-time.
 
@@ -139,8 +136,7 @@ big internal cleanup (legacy CustomTkinter UI removed). Now $20 one-time.
 
 ---
 
-## [1.6.0] — 2026-05-19
-
+## [1.6.0]
 New "Rename files only" mode + auto-update reliability fix.
 
 ### Added
@@ -167,8 +163,7 @@ handles the locked-file case itself.
 
 ---
 
-## [1.5.0] — 2026-05-15
-
+## [1.5.0]
 Audio & GIF support.
 
 ### Added
@@ -200,8 +195,7 @@ Audio & GIF support.
 
 ---
 
-## [1.2.0] — 2026-05-15
-
+## [1.2.0]
 The app updates itself now.
 
 ### Added
@@ -227,8 +221,7 @@ The app updates itself now.
 
 ---
 
-## [1.1.3] — 2026-05-15
-
+## [1.1.3]
 Installer migration fix, plus a proper in-app update section.
 
 ### Added
@@ -271,8 +264,7 @@ right back.
 
 ---
 
-## [1.1.2] — 2026-05-15
-
+## [1.1.2]
 Hotfix for a display-size issue reported by a customer, plus a more
 visible update notice.
 
@@ -303,8 +295,7 @@ visible update notice.
 
 ---
 
-## [1.1.1] — 2026-05-15
-
+## [1.1.1]
 Quality-of-life release. Removes two friction points reported in early
 testing: being forced to rename, and being forced to pick a destination.
 
@@ -334,8 +325,7 @@ testing: being forced to rename, and being forced to pick a destination.
 
 ---
 
-## [1.1.0] — 2026-05-14
-
+## [1.1.0]
 The "polish + power-user" release. Big focus on visual feedback, in-app help,
 and making the format builder feel direct-manipulation.
 
@@ -403,8 +393,7 @@ and making the format builder feel direct-manipulation.
 
 ---
 
-## [1.0.0] — 2026-05-12
-
+## [1.0.0]
 Initial public release. Built and tested on Windows 10 and 11.
 
 ### Features
