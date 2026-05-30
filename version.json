@@ -1,23 +1,63 @@
 {
-  "version": "1.7.0",
-  "notes": "First macOS release. Same engine as the Windows build.",
+  "version": "1.7.5",
+  "notes": "A redesigned, control-room layout, plus everything from the folder-structure release: preserve your event folders, choose Year / Month / Day folder depth, build your own filename, auto-collect audio and GIFs, and review duplicate groups. Fixes the license-loss-on-relaunch bug and the dry-run safety bug.",
   "download_url": "https://nonflavored.gumroad.com/l/exufpl",
   "changelog_url": "https://github.com/Nonflavored/datesorted-pro/blob/main/CHANGELOG.md",
 
-  "installer_url": "https://datesorted.net/downloads/DatesortedPro_Setup_v1.6.0.exe",
-  "sha256": "76e68863f809f1264d2803216c514ae4076093e12f09ab4bdafa55d621699190",
+  "_release_note": "Before pushing: build both installers, then replace sha256 and mac_sha256 below with the real hashes (build.bat prints the Windows one; shasum -a 256 for the DMG). A wrong hash makes auto-update fail verification for everyone.",
 
-  "mac_installer_url": "https://datesorted.net/downloads/DatesortedPro_v1.7.0.dmg",
-  "mac_sha256": "58d0356c784e8dcbc60d6ec1fdc7d58fa1f6dd732408e12f277a9457f76b8eb9",
+  "installer_url": "https://datesorted.net/downloads/DatesortedPro_Setup_v1.7.5.exe",
+  "sha256": "7cd6e95013c6f538dcd8e47a06f7514cee640962790097736e2bcacb26dc8cae",
+
+  "mac_installer_url": "https://datesorted.net/downloads/DatesortedPro_v1.7.5.dmg",
+  "mac_sha256": "REPLACE_WITH_REAL_MAC_SHA256_AFTER_BUILD",
 
   "whats_new": [
     {
-      "title": "Native macOS build",
+      "title": "Redesigned, control-room layout",
       "items": [
-        "Universal binary. Runs on Apple Silicon and Intel.",
-        "Notarised by Apple. Opens with no Gatekeeper warning.",
-        "Same EXIF, RAW, video, audio, and rename engine as Windows.",
-        "Files stay 100% local. No telemetry, no cloud."
+        "The main window is rebuilt around a wide live preview: your filename format and safety checks sit together on the right, the run monitor on the far right, and nothing is wasted space or scrolled past.",
+        "The sample filename is folded into the FILENAME FORMAT card, and the SAFETY panel fills its column with a plain-language summary of exactly what will happen."
+      ]
+    },
+    {
+      "title": "Preserve your event folders",
+      "items": [
+        "New 'Preserve event folders' option keeps a named source subfolder (like 'NH family trip') together under its date, instead of scattering it across day folders.",
+        "Camera folders (DCIM, 100CANON, plain numbers) are ignored, so only your real groupings are kept."
+      ]
+    },
+    {
+      "title": "Choose your folder depth",
+      "items": [
+        "Sort into Year only, Year + Month (the default), or all the way down to the day. Set it at the top of OPTIONS, and the live preview updates to match."
+      ]
+    },
+    {
+      "title": "Build your own filename",
+      "items": [
+        "The filename editor is back: add, reorder, and remove tokens, drop in custom text, and change the day / month / year order."
+      ]
+    },
+    {
+      "title": "Audio and GIFs, swept and tidy",
+      "items": [
+        "Audio and GIFs are now collected automatically into 'Audio - Sorted' and 'Gifs - Sorted', with names kept and never renamed."
+      ]
+    },
+    {
+      "title": "Trust your duplicates",
+      "items": [
+        "Click the DUPES counter to see exactly which files are byte-identical, which one is kept, and which move to _duplicates/."
+      ]
+    },
+    {
+      "title": "Fixes and polish",
+      "items": [
+        "Important fix: your license is no longer dropped when you relaunch the app. The machine fingerprint could change between launches on some PCs; it is now stable and persisted, and existing licenses migrate automatically.",
+        "Important fix: the Dry run toggle now truly previews and will never move or change a file.",
+        "Zip-by-year now works with type folders turned on.",
+        "The job-done notifier is now a bell button next to Organize."
       ]
     }
   ]

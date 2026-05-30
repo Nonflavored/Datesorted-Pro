@@ -5,6 +5,40 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ---
 
+## [1.7.5]
+A presentation and reliability release. The main window is rebuilt into a
+control-room layout that fits on one screen, the SAFETY panel earns its keep,
+and a long-standing licensing annoyance is fixed for good.
+
+### Changed
+- **Redesigned, control-room layout.** The live preview is now the wide center
+  display. The filename format and safety checks share one right-hand column,
+  with the run monitor on the far right. Every panel fills top to bottom, so
+  there is no wasted space and nothing to scroll past.
+- **The sample filename is folded into the FILENAME FORMAT card** instead of
+  floating as a separate box, and the pattern is edited in a type-and-drag box:
+  type literal text, drop in tokens, and drag them to reorder.
+- **SAFETY panel redesign.** Each check carries a badge (recommended, safe, or
+  slower), a plain-language banner spells out exactly what will happen to your
+  files for the current settings, and the panel closes with a reversibility
+  note.
+- **Crash reporting moved** to its own box below the activity log. Off by
+  default, crash-only, no usage data.
+
+### Added
+- **Organize in place.** Leave the destination empty and sort into dated
+  folders inside each source folder. Folders left empty by the sort are moved
+  to `_trash/` for review rather than deleted.
+
+### Fixed
+- **Your license is no longer lost on relaunch.** The machine fingerprint could
+  change between launches on PCs with multiple, virtual, or VPN network
+  adapters, which silently invalidated the saved license. It is now stable and
+  persisted, and existing licenses migrate automatically the next time the app
+  opens.
+
+---
+
 ## [1.7.2]
 A folder-structure and control release. You decide how deep the date tree
 goes, your existing event folders survive the sort, audio and GIFs get swept
