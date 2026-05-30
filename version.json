@@ -7,7 +7,7 @@
   "_release_note": "Before pushing: build both installers, then replace sha256 and mac_sha256 below with the real hashes (build.bat prints the Windows one; shasum -a 256 for the DMG). A wrong hash makes auto-update fail verification for everyone.",
 
   "installer_url": "https://datesorted.net/downloads/DatesortedPro_Setup_v1.7.5.exe",
-  "sha256": "7cd6e95013c6f538dcd8e47a06f7514cee640962790097736e2bcacb26dc8cae",
+  "sha256": "3f2e26a8a1652990ea943e009d76127e8403c2617bc278aeec2171e936d1028d",
 
   "mac_installer_url": "https://datesorted.net/downloads/DatesortedPro_v1.7.5.dmg",
   "mac_sha256": "REPLACE_WITH_REAL_MAC_SHA256_AFTER_BUILD",
